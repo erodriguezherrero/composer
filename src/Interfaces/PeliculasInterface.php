@@ -1,20 +1,12 @@
 <?php
 
+namespace App\Interfaces;
 
-namespace app\interfaces;
-
-interface PeliculasInterface {
-
+interface PeliculasInterface
+{
     public function name() : string;
 
     public function minutes() :int;
 
     //public function getpeliculas() : ?string;
-
-
 }
-
-
-
-
-?>
