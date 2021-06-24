@@ -1,0 +1,16 @@
+{
+    "name": "app/movie-dispacher",
+    "description": "despachador de peliculas",
+    "authors": [
+        {
+            "name": "Emilio Rodriguez",
+            "email": "erodriguezherrero@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "APP\\": "src/"
+        }
+    },    
+    "require": {}
+}
